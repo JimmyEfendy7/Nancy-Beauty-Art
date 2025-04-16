@@ -2,17 +2,17 @@ import './globals.css'
 import Analytics from './components/Analytics';
 
 export const metadata = {
-  title: 'MinangBits - Solusi Digital Profesional',
-  description: 'MinangBits menyediakan layanan digital profesional dengan tampilan yang bagus, rapi, kreatif, dan responsif untuk mengembangkan bisnis Anda.',
-  keywords: 'digital agency, website profesional, landing page, pengembangan bisnis, minangbits',
+  title: 'Nancy Beauty Art - Sulam Lesung Pipi',
+  description: 'Landing Pages promo menarik sulam lesung pipi.',
+  keywords: 'eyelash, sulam, lesung pipi, perawatan, kecantikan',
   openGraph: {
-    title: 'MinangBits - Solusi Digital Profesional',
-    description: 'MinangBits menyediakan layanan digital profesional dengan tampilan yang bagus, rapi, kreatif, dan responsif untuk mengembangkan bisnis Anda.',
-    url: 'https://minangbits.com',
-    siteName: 'MinangBits',
+    title: 'Nancy Beauty Art - Sulam Lesung Pipi',
+    description: 'Landing Pages promo menarik sulam lesung pipi',
+    url: 'https://sulamlesungpipi.biz.id',
+    siteName: 'Nancy Beauty Art',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'nancybeautyart',
@@ -33,8 +33,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MinangBits - Solusi Digital Profesional',
-    description: 'MinangBits menyediakan layanan digital profesional dengan tampilan yang bagus, rapi, kreatif, dan responsif untuk mengembangkan bisnis Anda.',
+    title: 'Nancy Beauty Art - Sulam Lesung Pipi',
+    description: 'Landing Pages promo menarik sulam lesung pipi.',
     images: ['/images/twitter-image.jpg'],
   },
 }
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        <link rel="canonical" href="https://minangbits.com" />
+        <link rel="canonical" href="https://sulamlesungpipi.biz.id" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#3B82F6" />
         {/* Struktur data untuk SEO */}
@@ -53,12 +53,12 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'MinangBits',
-              url: 'https://minangbits.com',
-              logo: 'https://minangbits.com/images/logo.png',
+              name: 'NancyBeautyArt',
+              url: 'https://sulamlesungpipi.biz.id',
+              logo: 'https://sulamlesungpipi.biz.id/images/logo.png',
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+62-812-3456-7890',
+                telephone: '+62-8888295758',
                 contactType: 'customer service',
                 areaServed: 'ID',
                 availableLanguage: 'Indonesian',
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
               sameAs: [
                 'https://facebook.com/minangbits',
                 'https://twitter.com/minangbits',
-                'https://instagram.com/minangbits',
+                'https://instagram.com/jimmy_efendy7',
                 'https://linkedin.com/company/minangbits',
               ],
             }),
