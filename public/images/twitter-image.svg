@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="600" fill="#EFF6FF"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="0" cy="0" r="300" fill="#3B82F6" opacity="0.1"/>
+  <circle cx="1200" cy="600" r="300" fill="#10B981" opacity="0.1"/>
+  
+  <!-- Logo and Title -->
+  <g transform="translate(150, 150)">
+    <text font-family="Arial" font-weight="bold" font-size="64" fill="#111827">
+      <tspan x="0" y="0" fill="#3B82F6">Minang</tspan>
+      <tspan x="220" y="0" fill="#F59E0B">Bits</tspan>
+    </text>
+    <text font-family="Arial" font-weight="normal" font-size="32" fill="#4B5563" x="0" y="50">
+      Solusi Digital Profesional
+    </text>
+    
+    <rect x="0" y="80" width="60" height="6" rx="3" fill="#3B82F6"/>
+    
+    <text font-family="Arial" font-size="24" fill="#6B7280" x="0" y="130">
+      Kembangkan Bisnis Anda dengan Website Profesional
+    </text>
+  </g>
+  
+  <!-- Illustration -->
+  <g transform="translate(700, 300)">
+    <circle cx="100" cy="100" r="150" fill="#3B82F6" opacity="0.2"/>
+    <rect x="50" y="50" width="100" height="100" rx="10" fill="#10B981" opacity="0.3"/>
+    <polygon points="100,25 175,150 25,150" fill="#F59E0B" opacity="0.3"/>
+  </g>
+</svg> 
