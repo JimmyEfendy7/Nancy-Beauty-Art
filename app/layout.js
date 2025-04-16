@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'Nancy Beauty Art - Sulam Lesung Pipi',
     description: 'Landing Pages promo menarik sulam lesung pipi',
-    url: 'https://sulamlesungpipi.biz.id',
+    url: 'https://sulamlesungpipi.web.id',
     siteName: 'Nancy Beauty Art',
     images: [
       {
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        <link rel="canonical" href="https://sulamlesungpipi.biz.id" />
+        <link rel="canonical" href="https://sulamlesungpipi.web.id" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#3B82F6" />
         {/* Struktur data untuk SEO */}
@@ -54,8 +54,8 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'NancyBeautyArt',
-              url: 'https://sulamlesungpipi.biz.id',
-              logo: 'https://sulamlesungpipi.biz.id/images/logo.png',
+              url: 'https://sulamlesungpipi.web.id',
+              logo: 'https://sulamlesungpipi.web.id/images/logo.png',
               contactPoint: {
                 '@type': 'ContactPoint',
                 telephone: '+62-8888295758',
