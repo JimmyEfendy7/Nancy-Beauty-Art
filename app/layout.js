@@ -5,6 +5,11 @@ export const metadata = {
   title: 'Nancy Beauty Art - Sulam Lesung Pipi',
   description: 'Landing Pages promo menarik sulam lesung pipi.',
   keywords: 'eyelash, sulam, lesung pipi, perawatan, kecantikan',
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   openGraph: {
     title: 'Nancy Beauty Art - Sulam Lesung Pipi',
     description: 'Landing Pages promo menarik sulam lesung pipi',
